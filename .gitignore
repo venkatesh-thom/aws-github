@@ -1,0 +1,53 @@
+# --------------------
+# Terraform files
+# --------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan output
+*.tfplan
+
+# --------------------
+# SSH Keys
+# --------------------
+*.pem
+terra-key
+terra-key.pub
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# --------------------
+# AWS Credentials
+# --------------------
+.aws/
+credentials
+config
+
+# --------------------
+# Environment files
+# --------------------
+.env
+.env.*
+
+# --------------------
+# Logs
+# --------------------
+*.log
+
+# --------------------
+# OS / Editor
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
